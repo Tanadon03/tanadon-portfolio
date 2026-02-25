@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth" style="scroll-padding-top: 2rem;">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanadon | Software Engineer &amp; Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#5417cf",
+                        "primary-dark": "#3c1094",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#0a0a0a",
+                        "surface-dark": "#161616",
+                        "glass-border": "rgba(255, 255, 255, 0.08)",
+                        "glass-bg": "rgba(255, 255, 255, 0.03)"
+                    },
+                    fontFamily: {
+                        "sans": ["Inter", "sans-serif"],
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "3xl": "1.5rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        .blink-cursor::after {
+            content: '_';
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(84, 23, 207, 0.3);
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        html.dark .glass-card {
+            background: rgba(22, 22, 22, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: none;
+        }
+
+        html.dark .glass-card:hover {
+            border-color: rgba(84, 23, 207, 0.5);
+            background: rgba(22, 22, 22, 0.8);
+        }
+
+        body.dark,
+        .dark body {
+            background-color: #0a0a0a;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans min-h-screen selection:bg-primary selection:text-white transition-colors duration-300">
+    <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+        <header
+            class="fixed top-0 left-0 w-full z-50 transition-all duration-300 backdrop-blur-md bg-white/80 dark:bg-[#0a0a0a]/80 border-b border-slate-200 dark:border-white/5 shadow-sm dark:shadow-none">
+            <div class="max-w-[1280px] mx-auto px-6 h-20 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div class="size-10 flex items-center justify-center bg-primary rounded-lg text-white">
+                        <span class="material-symbols-outlined text-xl">terminal</span>>
+                    </div>
+                    <h2 class="font-display font-bold text-xl tracking-tight text-slate-900 dark:text-white">Portfolio
+                    </h2>
+                </div>
+                <!-- <nav class="hidden md:flex items-center gap-8">
+                    <a href="#projects"
+                        class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors">Projects</a>
+                    <a href="#skills"
+                        class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors">Expertise</a>
+                    <a href="#about"
+                        class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors">About</a>
+                </nav> -->
+                <div class="flex items-center gap-4">
+                    <a href="#contact"
+                        class="hidden sm:flex px-5 py-2.5 rounded-full bg-white dark:bg-surface-dark border border-slate-200 dark:border-white/10 hover:border-primary/50 dark:hover:border-primary/50 text-slate-900 dark:text-white text-sm font-medium transition-all shadow-sm dark:shadow-none">
+                        contact
+                    </a>
+                    <button
+                        class="size-10 flex items-center justify-center rounded-full bg-slate-50 dark:bg-surface-dark border border-slate-200 dark:border-white/10 hover:bg-slate-100 dark:hover:bg-white/5 transition-colors text-slate-500 dark:text-slate-400 hover:text-primary dark:hover:text-white group relative">
+                        <span
+                            class="material-symbols-outlined text-[20px] group-hover:rotate-12 transition-transform">light_mode</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="flex-grow pt-20">
+            <section class="relative px-6 py-20 md:py-32 flex flex-col items-center justify-center min-h-[85vh]">
+                <div
+                    class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[120px] -z-10 pointer-events-none">
+                </div>
+                <div
+                    class="absolute bottom-1/4 right-1/4 w-64 h-64 bg-purple-500/5 rounded-full blur-[100px] -z-10 pointer-events-none">
+                </div>
+
+                <div class="max-w-[960px] w-full flex flex-col items-start gap-8 z-10">
+                    <div class="flex flex-col gap-4 max-w-3xl">
+                        <span
+                            class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-semibold uppercase tracking-wider w-fit">
+                            <span class="w-2 h-2 rounded-full bg-green-600 animate-pulse"></span>
+                            Available for work
+                        </span>
+
+                        <h1
+                            class="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[0.9] text-slate-900 dark:text-white">
+                            <!-- Tanadon Aunyart <br /> -->
+                            <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-500 dark:from-white dark:via-slate-200 dark:to-slate-500">Tanadon Aunyart</span>
+                        </h1>
+
+                        <h2 class="font-mono text-lg md:text-2xl text-slate-600 dark:text-slate-400 mt-2 h-8">
+                            <span class="text-primary">&gt;</span> <span class="blink-cursor">Full-stack
+                                Developer</span>
+                        </h2>
+                    </div>
+
+                    <p class="max-w-xl text-slate-600 dark:text-slate-400 text-lg leading-relaxed">
+                        I build real-world systems that connect hardware, backend services, and modern web applications.
+From embedded devices and control systems to scalable web platforms, I focus on clean architecture, reliability, and practical engineering.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4 mt-4">
+                        <a href="#projects"
+                            class="px-8 py-4 rounded-full bg-primary hover:bg-primary-dark text-white font-medium transition-all shadow-lg shadow-primary/25 hover:shadow-primary/40 flex items-center gap-2">
+                            View Selected Works
+                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                        </a>
+                        <a href="#contact"
+                            class="px-8 py-4 rounded-full bg-transparent border border-slate-300 dark:border-white/20 hover:border-slate-900 dark:hover:border-white/60 hover:bg-slate-50 dark:hover:bg-white/5 text-slate-900 dark:text-white font-medium transition-all backdrop-blur-sm">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="px-6 py-20 relative">
+                <div class="max-w-[1280px] mx-auto">
+                    <div
+                        class="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-slate-200 dark:border-white/5 pb-8">
+                        <div>
+                            <h2 class="font-display text-3xl md:text-4xl font-bold mb-2 text-slate-900 dark:text-white">
+                                Technical Expertise</h2>
+                            <p class="text-slate-600 dark:text-slate-400">Core competencies and technology stack</p>
+                        </div>
+                    </div>
+
+                    <!-- EXPERTISE CONTAINER (populated by JS) -->
+                    <div id="expertise-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+                </div>
+            </section>
+
+            <section id="projects" class="px-6 py-20 bg-slate-50 dark:bg-black/20">
+                <div class="max-w-[1280px] mx-auto">
+                    <div class="mb-16">
+                        <h2 class="font-display text-3xl md:text-5xl font-bold mb-4 text-slate-900 dark:text-white">
+                            Projects & Experiences</h2>
+                        <div class="h-1 w-20 bg-primary rounded-full"></div>
+                    </div>
+
+                    <!-- PROJECTS CONTAINER (populated by JS) -->
+                    <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
+                </div>
+            </section>
+
+            <section id="about" class="px-6 py-24 border-t border-slate-200 dark:border-white/5">
+                <div class="max-w-[960px] mx-auto text-center">
+                    <h2 class="font-display text-2xl md:text-3xl font-bold mb-12 text-slate-900 dark:text-slate-200">
+                        Beyond the Code</h2>
+
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-24">
+                        <div class="group cursor-pointer">
+                            <div
+                                class="size-20 rounded-full bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 group-hover:border-primary/50 transition-all duration-300">
+                                <span
+                                    class="material-symbols-outlined text-3xl text-slate-500 dark:text-slate-400 group-hover:text-primary transition-colors">auto_stories</span>
+                            </div>
+                            <h3
+                                class="font-serif italic text-2xl text-slate-700 dark:text-slate-300 group-hover:text-primary dark:group-hover:text-white transition-colors">
+                                Novels</h3>
+                            <p class="text-sm text-slate-500 dark:text-slate-500 mt-2">Dystopian &amp; Sci-Fi</p>
+                        </div>
+
+                        <div
+                            class="h-px w-24 bg-gradient-to-r from-transparent via-slate-300 dark:via-slate-700 to-transparent md:h-24 md:w-px">
+                        </div>
+
+                        <div class="group cursor-pointer">
+                            <div
+                                class="size-20 rounded-full bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 group-hover:border-primary/50 transition-all duration-300">
+                                <span
+                                    class="material-symbols-outlined text-3xl text-slate-500 dark:text-slate-400 group-hover:text-primary transition-colors">headphones</span>
+                            </div>
+                            <h3
+                                class="font-serif italic text-2xl text-slate-700 dark:text-slate-300 group-hover:text-primary dark:group-hover:text-white transition-colors">
+                                Heavy Metal</h3>
+                            <p class="text-sm text-slate-500 dark:text-slate-500 mt-2">Progressive &amp; Djent</p>
+                        </div>
+
+                        <div
+                            class="h-px w-24 bg-gradient-to-r from-transparent via-slate-300 dark:via-slate-700 to-transparent md:h-24 md:w-px">
+                        </div>
+
+                        <div class="group cursor-pointer">
+                            <div
+                                class="size-20 rounded-full bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 group-hover:border-primary/50 transition-all duration-300">
+                                <span
+                                    class="material-symbols-outlined text-3xl text-slate-500 dark:text-slate-400 group-hover:text-primary transition-colors">photo_camera</span>
+                            </div>
+                            <h3
+                                class="font-serif italic text-2xl text-slate-700 dark:text-slate-300 group-hover:text-primary dark:group-hover:text-white transition-colors">
+                                Photography</h3>
+                            <p class="text-sm text-slate-500 dark:text-slate-500 mt-2">Urban &amp; Street</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="contact" class="px-6 py-20 bg-slate-100 dark:bg-black text-center relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/10 pointer-events-none"></div>
+                <div class="max-w-2xl mx-auto relative z-10">
+                    <h2 class="font-display text-4xl md:text-6xl font-bold mb-6 text-slate-900 dark:text-white">Let's
+                        build something<br />extraordinary.</h2>
+                    <p class="text-slate-600 dark:text-slate-400 text-lg mb-10">
+                        Available for software engineering roles and freelance projects.<br />
+                        Based in Bangkok, open to remote.
+                    </p>
+                    <a href="mailto:hello@tanadon.dev"
+                        class="inline-block px-10 py-5 rounded-full bg-primary text-white dark:bg-white dark:text-black font-bold text-lg hover:scale-105 transition-transform duration-300 shadow-[0_0_20px_rgba(84,23,207,0.3)] dark:shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                        Get in Touch
+                    </a>
+
+                    <div class="mt-16 flex justify-center gap-8">
+                        <a href="#"
+                            class="text-slate-600 dark:text-slate-500 hover:text-primary dark:hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#"
+                            class="text-slate-600 dark:text-slate-500 hover:text-primary dark:hover:text-white transition-colors">GitHub</a>
+                        <a href="#"
+                            class="text-slate-600 dark:text-slate-500 hover:text-primary dark:hover:text-white transition-colors">Twitter</a>
+                    </div>
+
+                    <div
+                        class="mt-12 pt-8 border-t border-slate-300 dark:border-white/10 text-slate-500 dark:text-slate-600 text-sm">
+                        © 2023 Tanadon. Designed with precision.
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Project Modal Container -->
+    <div id="modal-root"></div>
+
+    <!-- Data and Components -->
+    <script src="data.js"></script>
+    <script src="components.js"></script>
+
+    <script>
+        // Simple dark mode toggle logic
+        const btn = document.querySelector('button');
+        const html = document.querySelector('html');
+        const icon = btn.querySelector('.material-symbols-outlined');
+
+        // Initialize appropriate icon on load based on class
+        if (html.classList.contains('dark')) {
+            icon.textContent = 'light_mode';
+        } else {
+            icon.textContent = 'dark_mode';
+        }
+
+        btn.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            if (html.classList.contains('dark')) {
+                icon.textContent = 'light_mode';
+            } else {
+                icon.textContent = 'dark_mode';
+            }
+        });
+    </script>
+</body>
+
+</html>
