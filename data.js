@@ -70,13 +70,13 @@ const portfolioData = {
             proj_img: [
                 {
                     name: "Login",
-                    path: "/tanadon-portfolio/img/LineUi/1.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/1.png"
                 }, {
                     name: "Home",
-                    path: "./img/LineUi/4.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/4.png"
                 }, {
                     name: "Profile",
-                    path: "/tanadon-portfolio/img/LineUi/3.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/3.png"
                 }, {
                     name: "Add Friend",
                     path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/5.png"
