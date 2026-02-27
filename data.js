@@ -70,31 +70,31 @@ const portfolioData = {
             proj_img: [
                 {
                     name: "Login",
-                    path: "../img/LineUi/1.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/1.png"
                 }, {
                     name: "Home",
-                    path: "../img/LineUi/4.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/4.png"
                 }, {
                     name: "Profile",
-                    path: "../img/LineUi/3.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/3.png"
                 }, {
                     name: "Add Friend",
-                    path: "../img/LineUi/5.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/5.png"
                 }, {
                     name: "Create Group",
-                    path: "../img/LineUi/6.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/6.png"
                 }, {
                     name: "Create Meeting",
-                    path: "../img/LineUi/7.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/7.png"
                 }, {
                     name: "News",
-                    path: "../img/LineUi/8.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/8.png"
                 }, {
                     name: "News Detail",
-                    path: "../img/LineUi/9_2.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/9_2.png"
                 }, {
                     name: "Settings",
-                    path: "../img/LineUi/10.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/LineUi/10.png"
                 }
             ],
             stats: [
@@ -124,19 +124,19 @@ const portfolioData = {
             proj_img: [
                 {
                     name: "Professor DB Web Application",
-                    path: "../img/ProfDB/1.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/ProfDB/1.png"
                 }, {
                     name: "Research Search",
-                    path: "../img/ProfDB/2.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/ProfDB/2.png"
                 }, {
                     name: "Profile",
-                    path: "../img/ProfDB/3.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/ProfDB/3.png"
                 }, {
                     name: "Academic Works",
-                    path: "../img/ProfDB/4.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/ProfDB/4.png"
                 }, {
                     name: "Edit Proceeding Page",
-                    path: "../img/ProfDB/5.png"
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/ProfDB/5.png"
                 }
             ],
             stats: [
