@@ -2,39 +2,48 @@ const portfolioData = {
     expertise: [
         {
             id: "01",
-            title: "Full-stack Development",
-            description: "Architecting scalable web applications with modern frameworks and robust backend services.",
-            icon: "layers",
-            tags: ["React", "Next.js", "Node.js", "Express", "Tailwind CSS"],
+            title: "System Architecture & Technical Integration",
+            description: "Designing cohesive systems by connecting backend services, AI workflows, and frontend interfaces. Focused on scalability, logical structure, and maintainable architecture.",
+            icon: "schema",
+            tags: ["System Design", "API Architecture", "Workflow Design", "AI-Assisted Dev", "Docker"],
+            featured: true,
+            span: 4
+        },
+        {
+            id: "02",
+            title: "Backend Engineering",
+            description: "Building production-ready backend systems with secure authentication, structured database modelling, logging, and clean API contracts.",
+            icon: "dns",
+            tags: ["Java (Spring Boot)", "Node.js", "Express", "PostgreSQL", "JWT", "Audit Logging"],
             featured: false,
             span: 2
         },
         {
-            id: "02",
-            title: "Backend & API",
-            description: "RESTful API design, authentication & authorization, database modelling, and production-ready backend systems.",
-            icon: "dns",
-            tags: ["Java (Spring Boot)", "Node.js", "PostgreSQL", "JWT", "Docker", "Logging & Audit"],
-            featured: false,
-            span: 1
-        },
-        {
             id: "03",
-            title: "Hardware Edge",
-            description: "Embedded systems and IoT — bridging sensors, controllers and cloud dashboards for real-world devices.",
-            icon: "memory",
-            tags: ["Arduino", "ESP32/8266", "Raspberry Pi", "Node-RED", "Blynk", "LINE Notify"],
+            title: "AI & Data Analytics",
+            description: "Experience with data preprocessing and structured experimentation. Familiar with AI workflows including local model deployment and open-source chatbot frameworks for practical applications.",
+            icon: "insights",
+            tags: ["Python", "Jupyter Notebook", "Kaggle", "Open-source LLMs", "Chatbot Integration"],
             featured: false,
-            span: 1
+            span: 2
         },
         {
             id: "04",
-            title: "Technical Integration",
-            description: "I specialize as a 'Technical Integrator'—leveraging AI-driven tools to rapidly prototype and build maintainable systems. My focus is on connecting diverse technologies into a cohesive solution with robust logical architecture.",
-            icon: "code",
-            tags: ["System Design", "Vibe Coding", "AI-Assisted Dev", "CI/CD", "Docker"],
-            featured: true,
-            span: 4
+            title: "Full-stack Application Development",
+            description: "Delivering complete, end-to-end web solutions. I build responsive frontends that communicate seamlessly with structured backends, ensuring data integrity and a smooth user experience from UI to Database.",
+            icon: "layers",
+            tags: ["React", "Next.js", "Express.js", "Java (Spring Boot)", "PostgreSQL", "RESTful API"],
+            featured: false,
+            span: 2
+        },
+        {
+            id: "05",
+            title: "Embedded & IoT Systems",
+            description: "Bridging sensors, microcontrollers, and cloud dashboards to build real-world connected systems.",
+            icon: "memory",
+            tags: ["Arduino", "ESP32/8266", "Raspberry Pi", "Node-RED", "Blynk", "LINE Notify"],
+            featured: false,
+            span: 2
         }
     ],
     projects: [
@@ -105,16 +114,16 @@ const portfolioData = {
             link: "#"
         },
         {
-            category: "2025 DATA / EXPERIMENT",
-            title: "Data Analysis & Kaggle Experiments",
-            description: "Implementation of data pipelines, EDA, and model experiments. Managed the full cycle of data cleaning, visualization, and model evaluation within Jupyter environments.",
+            category: "2025 AI ANALYTICS COURSEWORK",
+            title: "AI & Data Analytics – Labs and Applied Project",
+            description: "Coursework and applied project in AI Analytics covering data cleaning, regression modeling, and data visualization. Includes structured lab work, a data analytics project, and Kaggle certifications as proof of completion.",
             image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1200&q=60",
             stats: [
-                { label: "Complexity", value: "EDA & Model Comparison Pipeline" },
-                { label: "Stack", value: "Python, Pandas, Scikit-learn, Matplotlib" },
-                { label: "Role", value: "Data Analyst / ML Researcher" }
+                { label: "Complexity", value: "End-to-end analytics workflow from preprocessing to model evaluation" },
+                { label: "Stack", value: "Jupyter Notebook, Kaggle, Python (Pandas, NumPy, Matplotlib/Seaborn), Scikit-learn" },
+                { label: "Role", value: "Data preprocessing, model development, evaluation, and visualization" }
             ],
-            link: "#"
+            link: "https://github.com/Tanadon03/Data-Analytics"
         },
         {
             category: "2023 - 2025 WEB APP",
