@@ -55,8 +55,8 @@ function createProjectCards(projectsData) {
     if (!container) return;
 
     const cardsHTML = projectsData.map((project, index) => `
-        <div class="group relative overflow-hidden rounded-2xl h-[480px] border border-slate-200 dark:border-white/10 bg-white dark:bg-surface-dark shadow-sm"
-             onclick="if(window.matchMedia('(hover: none)').matches) openProjectModal(${index})">
+        <div class="group relative overflow-hidden rounded-2xl h-[480px] border border-slate-200 dark:border-white/10 bg-white dark:bg-surface-dark shadow-sm cursor-pointer"
+             onclick="openProjectModal(${index})">
             <div class="absolute inset-0 z-0">
                 <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-80 dark:opacity-60 group-hover:opacity-60 dark:group-hover:opacity-40" data-alt="${project.title} visualization" style="background-image: url('${project.image}');"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent dark:from-black dark:via-black/80"></div>
@@ -78,11 +78,6 @@ function createProjectCards(projectsData) {
                             <p class="text-xs text-white dark:text-slate-300">${stat.value}</p>
                             </div>
                         `).join('')}
-                    </div>
-                    <div class="mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200">
-                        <button onclick="event.stopPropagation(); openProjectModal(${index})" class="inline-flex items-center gap-2 text-sm font-medium text-white hover:text-primary transition-colors cursor-pointer focus:outline-none">
-                            View Case Study <span class="material-symbols-outlined text-sm">arrow_outward</span>
-                        </button>
                     </div>
                 </div>
             </div>
