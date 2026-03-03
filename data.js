@@ -52,6 +52,26 @@ const portfolioData = {
             title: "Online Meeting Platform (Jitsi Integration)",
             description: "Full-scale meeting platform with three coordinated systems: Spring Boot backend, React admin control panel, and Flutter user app integrated with a self-hosted Jitsi instance. Implements JWT-based auth and full action logging.",
             image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=60",
+            proj_img: [
+                { name: "User App - Screen 1", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20User%20App/Screenshot%202025-10-16%20210551.png" },
+                { name: "User App - Screen 2", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20User%20App/Screenshot%202025-10-16%20210605.png" },
+                { name: "User App - Screen 3", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20User%20App/Screenshot%202025-10-16%20211732.png" },
+                { name: "User App - Screen 4", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20User%20App/Screenshot%202025-10-16%20211745.png" },
+                { name: "User App - Screen 5", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20User%20App/Screenshot%202025-10-16%20211806.png" },
+                { name: "User App - Screen 6", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20User%20App/Screenshot%202025-10-16%20211819.png" },
+                { name: "User App - Screen 7", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20User%20App/Screenshot%202025-10-16%20211826.png" },
+                { name: "User App - Screen 8", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20User%20App/Screenshot%202025-10-16%20211836.png" },
+                { name: "User App - Screen 9", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20User%20App/Screenshot%202025-10-16%20211927.png" },
+                { name: "User App - Screen 10", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20User%20App/Screenshot%202025-10-16%20211940.png" },
+                { name: "Admin Web - Screen 1", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20Admin%20Web/Screenshot%202025-10-06%20214357.png" },
+                { name: "Admin Web - Screen 2", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20Admin%20Web/Screenshot%202025-10-16%20212203.png" },
+                { name: "Admin Web - Screen 3", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20Admin%20Web/Screenshot%202025-10-16%20212234.png" },
+                { name: "Admin Web - Screen 4", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20Admin%20Web/Screenshot%202025-10-16%20212327.png" },
+                { name: "Admin Web - Screen 5", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20Admin%20Web/Screenshot%202025-10-16%20212411.png" },
+                { name: "Admin Web - Screen 6", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20Admin%20Web/Screenshot%202025-10-16%20212450.png" },
+                { name: "Admin Web - Screen 7", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20Admin%20Web/Screenshot%202025-10-16%20212513.png" },
+                { name: "Admin Web - Screen 8", path: "https://tanadon03.github.io/tanadon-portfolio/img/%E0%B9%8BJitsi/UI%20Admin%20Web/Screenshot%202025-10-16%20212606.png" }
+            ],
             stats: [
                 { label: "Complexity", value: "Multi-layer auth & Role-based access" },
                 { label: "Stack", value: "Spring Boot, PostgreSQL, React, Flutter, Jitsi" },
@@ -118,6 +138,30 @@ const portfolioData = {
             title: "AI & Data Analytics – Labs and Applied Project",
             description: "Coursework and applied project in AI Analytics covering data cleaning, regression modeling, and data visualization. Includes structured lab work, a data analytics project, and Kaggle certifications as proof of completion.",
             image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1200&q=60",
+            proj_img: [
+                {
+                    name: "Python",
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/Kaggle%20Certificate/Tanadon%20Aunyart%20-%20Python.png"
+                }, {
+                    name: "Pandas",
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/Kaggle%20Certificate/Tanadon%20Aunyart%20-%20Pandas.png"
+                }, {
+                    name: "Data Cleaning",
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/Kaggle%20Certificate/Tanadon%20Aunyart%20-%20Data%20Cleaning.png"
+                }, {
+                    name: "Data Visualization",
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/Kaggle%20Certificate/Tanadon%20Aunyart%20-%20Data%20Visualization.png"
+                }, {
+                    name: "Intro to Machine Learning",
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/Kaggle%20Certificate/Tanadon%20Aunyart%20-%20Intro%20to%20Machine%20Learning.png"
+                }, {
+                    name: "Intro to Deep Learning",
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/Kaggle%20Certificate/Tanadon%20Aunyart%20-%20Intro%20to%20Deep%20Learning.png"
+                }, {
+                    name: "Time Series",
+                    path: "https://tanadon03.github.io/tanadon-portfolio/img/Kaggle%20Certificate/Tanadon%20Aunyart%20-%20Time%20Series.png"
+                }
+            ],
             stats: [
                 { label: "Complexity", value: "End-to-end analytics workflow from preprocessing to model evaluation" },
                 { label: "Stack", value: "Jupyter Notebook, Kaggle, Python (Pandas, NumPy, Matplotlib/Seaborn), Scikit-learn" },
