@@ -84,6 +84,15 @@ const portfolioData = {
             title: "Government Permission Management (Front-end Rebuild)",
             description: "Rebuilt legacy XML-driven front-end into modern Next.js / React application. Migrated UI logic to reusable components and integrated with existing APIs to improve UX and system maintainability.",
             image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=60",
+            proj_img: [
+                { name: "Add Menu", path: "https://tanadon03.github.io/tanadon-portfolio/img/Rebuild/Add%20Menu.png" },
+                { name: "Edit Menu", path: "https://tanadon03.github.io/tanadon-portfolio/img/Rebuild/Edit%20Menu.png" },
+                { name: "Login", path: "https://tanadon03.github.io/tanadon-portfolio/img/Rebuild/Login.png" },
+                { name: "Main", path: "https://tanadon03.github.io/tanadon-portfolio/img/Rebuild/Main.png" },
+                { name: "Menu Management", path: "https://tanadon03.github.io/tanadon-portfolio/img/Rebuild/Menu%20Management.png" },
+                { name: "Not Found", path: "https://tanadon03.github.io/tanadon-portfolio/img/Rebuild/Not%20Found.png" },
+                { name: "Role Managenent", path: "https://tanadon03.github.io/tanadon-portfolio/img/Rebuild/Role%20Managenent.png" }
+            ],
             stats: [
                 { label: "Complexity", value: "Legacy XML to Next.js Component Migration" },
                 { label: "Stack", value: "Next.js, React, Tailwind CSS, API integration" },
@@ -216,6 +225,14 @@ const portfolioData = {
             title: "Aquarium Chiller Control System",
             description: "Industrial sensor integration using Raspberry Pi 4 and RS485. Developed local control GUI and remote monitoring dashboard with automated data logging.",
             image: "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=1200&q=60",
+            proj_img: [
+                { name: "Screenshot 1", path: "https://tanadon03.github.io/tanadon-portfolio/img/Chiller/Screenshot%202026-03-04%20015113.png" },
+                { name: "Screenshot 2", path: "https://tanadon03.github.io/tanadon-portfolio/img/Chiller/Screenshot%202026-03-04%20015126.png" },
+                { name: "Screenshot 3", path: "https://tanadon03.github.io/tanadon-portfolio/img/Chiller/Screenshot%202026-03-04%20015136.png" },
+                { name: "Screenshot 4", path: "https://tanadon03.github.io/tanadon-portfolio/img/Chiller/Screenshot%202026-03-04%20015147.png" },
+                { name: "Screenshot 5", path: "https://tanadon03.github.io/tanadon-portfolio/img/Chiller/Screenshot%202026-03-04%20015212.png" },
+                { name: "Screenshot 6", path: "https://tanadon03.github.io/tanadon-portfolio/img/Chiller/Screenshot%202026-03-04%20141938.png" }
+            ],
             stats: [
                 { label: "Complexity", value: "RS485 Sensor Integration & Control Loop" },
                 { label: "Stack", value: "Python, Tkinter, Node-RED, Google Sheets" },
@@ -228,6 +245,15 @@ const portfolioData = {
             title: "Smart Home IoT System (NodeMCU)",
             description: "Distributed IoT system using NodeMCU for real-time sensor monitoring. Data is processed through Node-RED for dashboard visualization and automated notifications.",
             image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=60",
+            proj_img: [
+                { name: "Screenshot 1", path: "https://tanadon03.github.io/tanadon-portfolio/img/NodeProj/Screenshot%20(94).png" },
+                { name: "Screenshot 2", path: "https://tanadon03.github.io/tanadon-portfolio/img/NodeProj/Screenshot%20(95).png" },
+                { name: "Screenshot 3", path: "https://tanadon03.github.io/tanadon-portfolio/img/NodeProj/Screenshot%20(98).png" },
+                { name: "Screenshot 4", path: "https://tanadon03.github.io/tanadon-portfolio/img/NodeProj/Screenshot%20(102).png" },
+                { name: "Screenshot 5", path: "https://tanadon03.github.io/tanadon-portfolio/img/NodeProj/Screenshot%20(103).png" },
+                { name: "Screenshot 6", path: "https://tanadon03.github.io/tanadon-portfolio/img/NodeProj/Screenshot%202026-03-04%20021347.png" },
+                { name: "Screenshot 7", path: "https://tanadon03.github.io/tanadon-portfolio/img/NodeProj/Screenshot_20221217_110735.png" }
+            ],
             stats: [
                 { label: "Complexity", value: "Device-to-Cloud Data Pipeline" },
                 { label: "Stack", value: "Arduino, ESP32/8266, Raspberry Pi, Sensor, Node-RED, Blynk, LINE Notify" },
