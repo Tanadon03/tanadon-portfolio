@@ -269,7 +269,8 @@ const portfolioData = {
             proj_img: [
                 { name: "AWS Cloud Foundations", path: "https://tanadon03.github.io/Portfolio/img/NodeProj/AWS_Academy_Graduate___Cloud_Foundations___Training_Badge_Badge20260321-31-kmowdn.png" },
                 { name: "AWS Cloud Developing", path: "https://tanadon03.github.io/Portfolio/img/NodeProj/AWS_Academy_Graduate___Cloud_Developing___Training_Badge_Badge20260321-31-lo3u6n.png" },
-                { name: "KMITL Smart Building", path: "https://tanadon03.github.io/Portfolio/img/NodeProj/KMITL Smart Building.jpg" },
+                { name: "KMITL Smart Building", path: "https://tanadon03.github.io/Portfolio/img/NodeProj/KMITL_Smart_Building.jpg" },
+                { name: "Ollama Local LLM", path: "https://tanadon03.github.io/Portfolio/img/NodeProj/42_BKK_Python.png" }
             ],
             stats: [
                 { label: "Focus", value: "Curiosity-driven learning & experimentation" },
