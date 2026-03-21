@@ -9,4 +9,4 @@ Beyond my core expertise in **IoT** and **Full-stack Development**, this site se
 - 📱 **Cross-Platform Apps:** Building seamless experiences from Mobile to Web.
 - 🏗️ **Systems Design:** Designing robust architectures that connect Hardware to Cloud.
 
-🔗 **Explore Everything:** [Click here!/](https://tanadon03.github.io/Portfolio/)
+🔗 **Explore Everything:** [Click here!](https://tanadon03.github.io/Portfolio/)
