@@ -267,10 +267,10 @@ const portfolioData = {
             description: "A collection of small, interest-driven experiments — building quick sites with templates, automating small tasks, exploring new tools, and occasionally testing local AI setups. Mostly built out of curiosity and self-development.",
             image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=60",
             proj_img: [
-                { name: "AWS Cloud Foundations", path: "https://tanadon03.github.io/Portfolio/img/NodeProj/AWS_Academy_Graduate___Cloud_Foundations___Training_Badge_Badge20260321-31-kmowdn.png" },
-                { name: "AWS Cloud Developing", path: "https://tanadon03.github.io/Portfolio/img/NodeProj/AWS_Academy_Graduate___Cloud_Developing___Training_Badge_Badge20260321-31-lo3u6n.png" },
-                { name: "KMITL Smart Building", path: "https://tanadon03.github.io/Portfolio/img/NodeProj/KMITL_Smart_Building.jpg" },
-                { name: "Ollama Local LLM", path: "https://tanadon03.github.io/Portfolio/img/NodeProj/42_BKK_Python.png" }
+                { name: "AWS Cloud Foundations", path: "https://tanadon03.github.io/Portfolio/img/PlayGround/AWS_Academy_Graduate___Cloud_Foundations___Training_Badge_Badge20260321-31-kmowdn.png" },
+                { name: "AWS Cloud Developing", path: "https://tanadon03.github.io/Portfolio/img/PlayGround/AWS_Academy_Graduate___Cloud_Developing___Training_Badge_Badge20260321-31-lo3u6n.png" },
+                { name: "KMITL Smart Building", path: "https://tanadon03.github.io/Portfolio/img/PlayGround/KMITL_Smart_Building.jpg" },
+                { name: "42 BKK Python", path: "https://tanadon03.github.io/Portfolio/img/PlayGround/42_BKK_Python.png" }
             ],
             stats: [
                 { label: "Focus", value: "Curiosity-driven learning & experimentation" },
